@@ -4,7 +4,7 @@
 $host = "localhost:3306";
 $db = "yuexia63_demo_db1";
 $user = "yuexia63";
-$pass = "19820907Wzimook";
+$pass = "";
 
 $link = mysqli_connect($host, $user, $pass, $db);
 $db_response = [];
