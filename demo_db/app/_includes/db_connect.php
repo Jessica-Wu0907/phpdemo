@@ -1,13 +1,12 @@
 <?php
 
 
-  $host = 'localhost'; // Change to your database host
-    $user = 'root'; // Change to your database username
-    $password = ''; // Change to your database password
-    $database = 'wei583'; // Change to your database name
+$host = "localhost:3306";
+$db = "yuexia63_demo_db1";
+$user = "yuexia63";
+$pass = "19820907Wzimook";
 
-$link = mysqli_connect($host, $user, $password, $database);
-
+$link = mysqli_connect($host, $user, $pass, $db);
 $db_response = [];
 $db_response['success'] = 'not set';
 
