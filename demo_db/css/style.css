@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body, h1, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f5; /* Neutral background color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif; /* Modern Font */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600; /* Bold title */
+    color: #333;
+}
+
+form.centered-form {
+    width: 50%;
+    background-color: pink;
+    padding: 30px;1
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto;
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition */
+}
+
+form.centered-form:hover {
+    transform: scale(1.02); /* Slight grow effect on hover */
+    box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12); /* Enhanced shadow on hover */
+}
+
+form.centered-form label,
+form.centered-form input {
+    margin: 10px 0; /* Increased spacing */
+    width: 100%; /* Full width inputs */
+}
+
+input[type="submit"] {
+    cursor: pointer;
+    background-color: #808080; /* Bright button */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s; /* Smooth color transition */
+}
+
+input[type="submit"]:hover {
+    background-color: #333333; /* Darken on hover */
+}
+
+table {
+    width: 80%;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #e1e1e1; /* Lighter border color */
+}
+
+th, td {
+    padding: 12px 15px; /* Increased padding */
+    text-align: left;
+    font-weight: 500; /* Slightly bold */
+}
+
+th {
+    background-color: #f5f5f7; /* Slightly different header bg */
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #fafafa; /* Lighter even row */
+}
+
+#display {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
